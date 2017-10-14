@@ -1,0 +1,198 @@
+h1 /*propriétés générales des titres h1*/{
+	color:#FF00FF;
+	font-weight: bold;
+	text-decoration: overline;
+	text-align:center;
+	font-size: 100px;	
+	font-family: Comic Sans MS;
+	
+}
+
+body/*propriétés générales du body*/{
+	background-image: url("DOGE.gif");
+	font-family: Comic Sans MS;
+}
+
+p/*propriétés générales des paragraphes*/{
+	text-align:justify;
+	margin:auto;
+	border: 1px solid teal;
+	padding:10px;
+	overflow:auto;
+}
+
+h2/*propriétés générales des titres h2*/{
+	font-size: 70px;
+	color:#00FFFF;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align:center;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+
+em/*propriétés générales du contenu en italique (EDIT: N'est plus utilisé dans cette version)*/{
+	font-style: italic;
+	color:#00BBFF;
+	text-decoration: overline;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+mark/*propriétés générales des balises <mark> (liens répétés en page1*/{
+	font-size: xx-large;
+	font-family:Comic Sans MS, consolas, sans-serif;
+	opacity: 0.5;
+	border: 5px blue groove;
+	box-shadow: 6px 6px 0px Fuchsia;
+	}
+
+a/*propriétés générales des liens*/{
+	color: #00FF00;
+}
+
+
+
+
+
+	
+a:hover/*propriétés des liens lorsqu'ils sont survolés*/{
+	color:#FF00FF;
+	font-size:100px;
+}
+
+h1:hover/*propriétés des titres h1 lorsqu'ils sont survolés*/{
+	color:#FFFF00;
+	font-size:110px;
+}
+
+h2:hover/*propriétés des titres h2 lorsqu'ils sont survolés*/{
+	color: teal;
+	font-size:80px;
+}
+
+h1:active/*propriétés des titres h1 quand ils sont cliqués*/{
+	font-family:Comic Sans MS, sans-serif;
+	font-size:150px;
+	color:#FFFF00;
+}
+
+a:active/*propriétés des liens lorsqu'ils sont cliqués*/{
+	background-color: #FF0000;
+}
+
+
+
+
+
+
+
+.imageproperties/*Pour les images flottantes*/{
+	float: left;
+}
+.underfloat/*empecher le texte d'aller à coté de l'image, utilisé en page3*/{
+	clear: right;
+}
+
+.random/*balise... random, on va dire, utilisée en page 2*/{
+	font-size: 20px;
+	color:#00FFFF;
+	font-weight: bold;
+	text-align:center;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+.fontpropreties /* Utilisé dans une ancienne version du .html, inutile dans celle ci*/{
+	font-family: Consolas, calibri, sans-serif;
+}
+
+.seriousness/*propriétés de la dernière ligne de la page1*/{
+	font-family: Arial;
+	color: #000000;
+}
+
+.introduction/* Utilisé dans une ancienne version du .html, inutile dans celle ci*/{
+    color: blue;
+	font-family: Comic Sans MS, sans-serif;
+	}
+
+
+.titleproprerties/*tout est dans le titre, utilisé en page1*/{
+	font-family:Comic Sans MS, calibri, sans-serif;
+	text-decoration: blink;
+	
+}
+
+.salutations /* Utilisé dans une ancienne version du .html, inutile dans celle ci*/{
+	color: #FF0514;
+	text-decoration: blink;
+	font-size: xx-large;
+	font-family: arial, sans-serif;
+}
+
+.formulaire/*propriétés du formulaire en page 2*/{
+	font-family: Comic Sans MS, Consolas, sans-serif;
+	color: #FF11FF;
+	font-size:50px;
+}
+
+.home/*Retour à la première page*/{
+	text-align: center;
+	text-decoration: bold;
+
+}
+
+.mlg_text/*permet d'éviter d'appliquer une class à tous les <p>*/{
+	text-align:justify;
+	font-size: medium;
+	border-radius: 10px 5px 10px 5px;
+	color: #ffffff;
+	font-family: Comic Sans MS, sans-serif;
+}	
+
+
+.td/*propriétés de la page 3*/{
+	background-color:#FFFFFF;
+}
+
+.navigation/*propriétés du menu de la page 1*/{
+	background-color:#444444;
+	opacity:0.8;
+
+}
+
+
+
+
+	
+
+.seriousness:hover/*propriétés de la dernière ligne de la page1*/{
+	font-family: Arial;
+	color: #000000;
+	background-color: #FFFFFF;
+	opacity:0.8;
+}
+
+.random:hover/*balise... random, on va dire, utilisée en page 2*/{
+	color: #FF00FF;
+}
+
+.formulaire:hover/*formulaire de la page2*/{
+	color: #11FFFF;
+	font-weight: italic;
+	font-size:xx-large;
+
+}
+
+.listing:hover/*propriétés de la liste en début de page1*/{
+	color:#FFFFFF;
+	text-decoration: italic;
+	font-weight: bold;
+	border: 5px blue groove;
+	box-shadow: 6px 6px 0px Fuchsia;
+}
+
+.mlg_text:hover/*permet d'éviter d'appliquer une class à tous les <p>*/{
+	color: #00FFFF;
+	
+}
+	
